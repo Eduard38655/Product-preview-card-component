@@ -1,0 +1,207 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  width: 1440px;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container {
+  width: 601px;
+  height: 451px;
+  background-color: hsl(0, 0%, 100%);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.figure {
+  width: 301px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-image: url("Imagen/image-product-desktop-Product preview card component.jpg");
+  background-size: 301px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+section {
+  width: 305px;
+  height: 449px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+section > .btn-0 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 245px;
+  height: 261px;
+}
+section > .btn-0 > span {
+  font-size: 10px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+section > .btn-0 > h1 {
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+}
+section > .btn-0 > p {
+  font-size: 15px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+section > .btn-2 {
+  width: 250px;
+  height: 124px;
+  display: grid;
+  grid-template-columns: 135px 50px;
+  grid-template-rows: 30px;
+
+  align-items: center;
+}
+.btn-2 > p {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+}
+.btn-2 > span {
+  text-decoration: line-through;
+  font-size: 15px;
+  text-align: end;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+
+section > .btn-2 .boton {
+  width: 236px;
+  height: 45px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: "Fraunces", serif;
+  cursor: pointer;
+  background-color: hsl(158, 36%, 37%);
+}
+section > .btn-2 .boton:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: hsl(30, 38%, 92%);
+    width: 375px;
+    height: 667px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .container {
+    width: 353px;
+    height: 613px;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .figure {
+    width: 353px;
+    height: 240px;
+    background-image: url("Imagen/image-product-mobile-Product preview card component.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+    background-size: 353px;
+  }
+
+  section {
+    padding: 30px;
+    width: 305px;
+    height: 449px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  section > .btn-0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 305px;
+    height: 200px;
+  }
+  section > .btn-0 > span {
+    font-size: 10px;
+    padding: 10px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+  }
+  section > .btn-0 > h1 {
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+  }
+  section > .btn-0 > p {
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+  }
+  section > .btn-2 {
+    width: 250px;
+    height: 124px;
+    display: grid;
+    grid-template-columns: 135px 50px;
+    grid-template-rows: 60px;
+
+    align-items: center;
+  }
+  .btn-2 > p {
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+  }
+  .btn-2 > span {
+    text-decoration: line-through;
+    font-size: 15px;
+    text-align: end;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+  }
+
+  section > .btn-2 .boton {
+    width: 236px;
+    height: 45px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: "Fraunces", serif;
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%);
+  }
+  section > .btn-2 .boton:hover {
+    background-color: hsl(212, 21%, 14%);
+  }
+  footer {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+}
